@@ -38,7 +38,7 @@ function format(review) {
 }
 
 function getToday() {
-  var objDate = new Date("06/23/2017");
+  var objDate = new Date();
   var locale = "en-us";
   var monthShort = objDate.toLocaleString(locale, { month: "short" });
   var date = objDate.getDate();
